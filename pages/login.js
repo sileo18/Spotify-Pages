@@ -24,7 +24,7 @@ export default function LoginPage() {
         <div className="h-[1px] w-[600px] bg-white opacity-20" />
 
         {/*Input Credentials*/}
-        <div className="flex flex-col gap-4">
+        <form className="flex flex-col gap-4">
           {/* Email */}
           <Email />
           
@@ -39,7 +39,7 @@ export default function LoginPage() {
             Log In
             {' '}
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
